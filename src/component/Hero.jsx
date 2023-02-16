@@ -1,7 +1,7 @@
 import React from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import logo from "../logo.svg";
+// import logo from "../logo.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,7 +11,7 @@ const Hero = () => {
       trigger: ".box_parent",
       start: "top 50%",
       end: "bottom top",
-      markers: true,
+      markers: false,
       scrub: 1,
       //   pin: true,
       //   pinSpacer: true,
@@ -69,7 +69,7 @@ const Hero = () => {
       trigger: ".parent_11",
       start: "top top",
       end: "bottom top",
-      markers: true,
+      markers: false,
       //   scrub: 1,
       //   pin: true,
       //   pinSpacer: true,
