@@ -1,4 +1,4 @@
-/* .roadmap_line_parent {
+.roadmap_line_parent {
   background-color: rgb(216, 210, 210);
   max-width: 20px !important;
   height: 100% !important;
@@ -6,7 +6,7 @@
   left: 50%;
   top: 16px;
   z-index: 1;
-} */
+}
 .roadmap_line_1 {
   max-width: 20px !important;
   height: 1px;
@@ -15,4 +15,18 @@
   left: 50%;
   top: 16px;
   z-index: 10;
+}
+@media (max-width: 991.98px) {
+  .roadmap_line_parent,
+  .roadmap_line_1 {
+    left: 5%;
+  }
+}
+@media (max-width: 575.98px) {
+  .roadmap_line_parent,
+  .roadmap_line_1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 10px !important;
+  }
 }
