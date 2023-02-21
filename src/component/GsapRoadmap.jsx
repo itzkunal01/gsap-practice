@@ -188,7 +188,7 @@ const GsapRoadmap = () => {
             <div className="position-absolute roadmap_line_1"></div>
           </div>
 
-          <p className="fw-seibold">
+          <p className="fw-semibold">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
             provident minus non magnam, sit odit labore veniam repellat
             blanditiis qui corrupti vel consequuntur inventore nostrum, enim
