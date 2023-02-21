@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="App">
       <GsapRoadmap />
-      {/* <Hero /> */}
+      <Hero />
       <GsapSlider />
-      {/* <GsapRoadmap /> */}
     </div>
   );
 }

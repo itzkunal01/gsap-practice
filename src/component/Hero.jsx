@@ -31,7 +31,7 @@ const Hero = () => {
     .fromTo(
       ".div_2",
       {
-        scale: 5,
+        scale: 2.5,
       },
       {
         scale: 1,
@@ -52,7 +52,7 @@ const Hero = () => {
         scale: 0,
       },
       {
-        scale: 1,
+        scale: 2.5,
       }
     )
     .fromTo(
@@ -89,7 +89,7 @@ const Hero = () => {
   );
   return (
     <div>
-      <div className="vh-100 bg-danger"></div>
+      {/* <div className="vh-100 bg-danger"></div> */}
       <div className="box_parent bg-warning">
         <div className="d-flex justify-content-between">
           <div className="box_1 div_1 m-4"></div>
@@ -106,13 +106,13 @@ const Hero = () => {
           eligendi accusantium.
         </p>
       </div>
-      <div className="vh-100 bg-primary"></div>
-      <div className="py-5 parent_11">
+      {/* <div className="vh-100 bg-primary"></div> */}
+      {/* <div className="py-5 parent_11">
         <div className="box"></div>
-      </div>
-      <div className="vh-100 bg-warning"></div>
-      <div className="vh-100 bg-success"></div>
-      <div className="vh-100 bg-dark"></div>
+      </div> */}
+      {/* <div className="vh-100 bg-warning"></div> */}
+      {/* <div className="vh-100 bg-success"></div> */}
+      {/* <div className="vh-100 bg-dark"></div> */}
     </div>
   );
 };
