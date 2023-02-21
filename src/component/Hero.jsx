@@ -88,7 +88,7 @@ const Hero = () => {
     }
   );
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* <div className="vh-100 bg-danger"></div> */}
       <div className="box_parent bg-warning">
         <div className="d-flex justify-content-between">

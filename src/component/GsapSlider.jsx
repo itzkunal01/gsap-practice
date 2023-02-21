@@ -4,9 +4,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 const GsapSlider = () => {
-  let sections1 = gsap.utils.toArray(".block1 > div");
-  let sections2 = gsap.utils.toArray(".block2 > div");
-
   let slider = gsap.timeline({
     scrollTrigger: {
       trigger: ".slider-parent",
@@ -26,7 +23,6 @@ const GsapSlider = () => {
       markers: false,
     },
     xPercent: 100,
-    duration: 2,
   });
   slider.to(".block2", {
     scrollTrigger: {
@@ -38,7 +34,6 @@ const GsapSlider = () => {
       markers: true,
     },
     xPercent: -100,
-    duration: 2,
   });
 
   return (
