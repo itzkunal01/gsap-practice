@@ -19,26 +19,26 @@ const GsapSlider = () => {
   slider.to(".block1", {
     scrollTrigger: {
       trigger: ".block1",
-      start: "top 85vh",
+      start: "top 50%",
       toggleActions: "play none none reset",
       xPercent: 0,
-      scrub: 5,
+      scrub: 2,
       markers: false,
     },
     xPercent: 100,
-    duration: 5,
+    duration: 2,
   });
   slider.to(".block2", {
     scrollTrigger: {
       trigger: ".block2",
-      start: "top 85vh",
+      start: "top 50%",
       toggleActions: "play none none reset",
       xPercent: 0,
-      scrub: 5,
+      scrub: 2,
       markers: true,
     },
-    xPercent: 100,
-    duration: 5,
+    xPercent: -100,
+    duration: 2,
   });
 
   return (
