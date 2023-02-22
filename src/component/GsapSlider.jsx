@@ -7,6 +7,7 @@ const GsapSlider = () => {
   let slider = gsap.timeline({
     scrollTrigger: {
       trigger: ".slider-parent",
+      ease: "none",
       // start: "top top",
       // end: "bottom top",
       // markers: true,
@@ -18,22 +19,24 @@ const GsapSlider = () => {
       trigger: ".block1",
       start: "top 50%",
       // toggleActions: "play none none reset",
-      xPercent: 0,
-      scrub: 2,
+      x: 0,
+      scrub: 1,
       markers: false,
+      ease: "none",
     },
-    xPercent: 100,
+    x: 2000,
   });
   slider.to(".block2", {
     scrollTrigger: {
       trigger: ".block2",
       start: "top 50%",
       // toggleActions: "play none none reset",
-      xPercent: 0,
-      scrub: 2,
-      markers: true,
+      x: 0,
+      scrub: 1,
+      markers: false,
+      ease: "none",
     },
-    xPercent: -100,
+    x: -2000,
   });
 
   return (
