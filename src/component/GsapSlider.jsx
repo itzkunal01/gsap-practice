@@ -17,7 +17,7 @@ const GsapSlider = () => {
     scrollTrigger: {
       trigger: ".block1",
       start: "top 50%",
-      toggleActions: "play none none reset",
+      // toggleActions: "play none none reset",
       xPercent: 0,
       scrub: 2,
       markers: false,
@@ -28,7 +28,7 @@ const GsapSlider = () => {
     scrollTrigger: {
       trigger: ".block2",
       start: "top 50%",
-      toggleActions: "play none none reset",
+      // toggleActions: "play none none reset",
       xPercent: 0,
       scrub: 2,
       markers: true,

@@ -105,3 +105,22 @@
     transform: translateX(-100%);
   }
 } */
+
+/* ANIMATED IMAGES VERTICAL SLIDER */
+.action_img_shadow {
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+}
+.index_minus_1 {
+  z-index: -1;
+}
+.animtion_img {
+  object-fit: cover !important;
+  max-width: 472px;
+  max-height: 412px;
+}
+.image_conatiner {
+  transition: all 0.3s ease-in-out;
+}
